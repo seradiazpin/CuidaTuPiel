@@ -1,0 +1,227 @@
+#pageTop{
+
+}
+
+.googleFont{
+    font-family: 'Indie Flower', cursive;
+    font-size: large;
+}
+
+.table>thead>tr>td.success, .table>tbody>tr>td.success, .table>tfoot>tr>td.success, .table>thead>tr>th.success, .table>tbody>tr>th.success, .table>tfoot>tr>th.success, .table>thead>tr.success>td, .table>tbody>tr.success>td, .table>tfoot>tr.success>td, .table>thead>tr.success>th, .table>tbody>tr.success>th, .table>tfoot>tr.success>th {
+    background-color: #69C363;
+}
+
+.table>thead>tr>td.sunscreen, .table>tbody>tr>td.sunscreen, .table>tfoot>tr>td.sunscreen, .table>thead>tr>th.sunscreen, .table>tbody>tr>th.sunscreen, .table>tfoot>tr>th.sunscreen, .table>thead>tr.sunscreen>td, .table>tbody>tr.sunscreen>td, .table>tfoot>tr.sunscreen>td, .table>thead>tr.sunscreen>th, .table>tbody>tr.sunscreen>th, .table>tfoot>tr.sunscreen>th {
+    background-color: #b9ffe5;
+}
+
+.sunscreen{
+    background-color: #bbfde6;
+}
+
+.autoImg{
+    width: 500px;
+}
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+    padding-bottom: 40px;
+    color: #000000;
+
+    background: -moz-linear-gradient(top, rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(100%,rgba(125,185,232,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=0 ); /* IE6-9 */
+
+
+
+}
+
+.header{
+    color: #ffffff;
+}
+
+#imgIcon{
+    width: 10%;
+    height: auto;
+}
+
+.imgIcon100{
+    width: 67%;
+    height: auto;
+}
+
+.noEmb{
+    text-emphasis: none;
+    color: #000000;
+}
+
+.noEmb:hover{
+    text-emphasis: none;
+    color: #000000;
+    background: -moz-linear-gradient(top, rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(100%,rgba(125,185,232,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* W3C */
+}
+
+.navbar{
+    background-color: #FE8501;
+
+}
+
+.list-group-item{
+    background-color: orange;
+    position: relative;
+}
+
+
+.footer{
+    font: inherit;
+    background-color: #96d4f1;
+    color: #000000;
+}
+
+#screen_banner {
+    background-color: #FCB825;
+    border-bottom: 1px solid #76aaf1;
+}
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+    padding-right: 0;
+    padding-left: 0;
+}
+.navbar-wrapper .navbar {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+    width: auto;
+}
+
+
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    height: 580px;
+    margin-bottom: 60px;
+    background-color: orange;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    z-index: 10;
+    color : #000000;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+    height: 500px;
+    background-color: #ffffff;
+
+}
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 580px;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.marketing h2 {
+    font-weight: normal;
+}
+.marketing .col-lg-4 p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+    margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+    /* Navbar positioning foo */
+    .navbar-wrapper {
+        margin-top: 20px;
+    }
+    .navbar-wrapper .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .navbar-wrapper .navbar {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    /* The navbar becomes detached from the top, so we round the corners */
+    .navbar-wrapper .navbar {
+        border-radius: 4px;
+    }
+
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 20px;
+        font-size: 21px;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    .featurette-heading {
+        margin-top: 120px;
+    }
+}

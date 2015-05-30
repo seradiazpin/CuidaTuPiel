@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 460 460" enable-background="new 0 0 460 460" xml:space="preserve">
+<circle fill="#F7F7F7" stroke="#F49B31" stroke-width="6" stroke-miterlimit="10" cx="229.5" cy="231.5" r="223.5"/>
+<g>
+	<rect x="176.2" y="46" fill="#FF0000" width="106.6" height="371"/>
+	<rect x="44" y="178.2" fill="#FF0000" width="371" height="106.6"/>
+</g>
+
+<!--
+<g>
+	<path fill="#FFFFFF" stroke="#1D1D1B" stroke-miterlimit="10" d="M70,231.4c0,0,141.5,183.5,325,0"/>
+	<path fill="#FFFFFF" stroke="#1D1D1B" stroke-miterlimit="10" d="M70,232c0,0,141.5-183.5,325,0"/>
+</g>
+-->
+<circle fill="#9FFAFF" cx="229.5" cy="231.5" r="48.5"/>
+<g>
+	<path fill="#F1CF9F" d="M194,264c0,0,20.7-7.7,22.4-6.9c1.7,0.9,3.4-11.2,1.7-11.2s4.3,6.9,9.5,7.7c5.2,0.9,14.6-1.7,16.3-6.9
+		s-1.7,5.2,0.9,8.6c2.6,3.4,23.2,6,23.2,8.6C268,266.5,228.4,295.8,194,264z"/>
+	<path fill="#F1CF9F" d="M230.3,199.4c0,0-20.7-0.9-17.2,25.8c3.4,26.7,15.5,28.4,15.5,28.4L230.3,199.4z"/>
+	<path fill="#F1CF9F" d="M227.7,201.1c0.1-2,4.3-1.8,6.2-1.5c6.2,0.9,19,5.3,16.6,25.6c-3.9,33.6-22,28.4-22,28.4L227.7,201.1z"/>
+</g>
+<circle fill="none" stroke="#1D1D1B" stroke-miterlimit="10" cx="229.5" cy="231.5" r="48.5"/>
+<path fill="#FFFFFF" stroke="#1D1D1B" stroke-miterlimit="10" d="M186,254"/>
+<path fill="#D8B78F" d="M219.8,248.5c0,0,12.8,12.5,24.3-1c8.3-9.7-5.3,11.1-11.2,9.2C218.8,252.1,219.8,248.5,219.8,248.5z"/>
+</svg>
