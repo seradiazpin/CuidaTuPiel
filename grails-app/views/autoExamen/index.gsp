@@ -2,7 +2,7 @@
 <html>
 <head lang="es">
     <meta name="layout" content="main"/>
-    <title>Autoexamen de piel:)</title>
+    <title>Autoexamen de piel</title>
 
 </head>
 <body >
