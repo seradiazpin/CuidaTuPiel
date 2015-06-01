@@ -3,6 +3,7 @@
 <head lang="es">
     <meta name="layout" content="main"/>
     <title>Autoexamen de piel</title>
+    <g:javascript src="jquery-ui-1.11.4.custom/external/jquery/jquery.js"></g:javascript>
 
 </head>
 <body>
@@ -17,6 +18,62 @@
     </p>
 </div>
 
+<!--
+<div class="row">
+    <div class=" col-lg-12 list-group-item">
+
+        <div class="row">
+            <div class="col-lg-4">
+                <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <div class="circle center-block step" style="background-color: dodgerblue";>
+
+                        <h3 class="site__header site__title" style="padding-top: 50px;">A de Asimetria</h3>
+
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4">
+                <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                    <div class="circle center-block step" style="background-color: dodgerblue";>
+
+                        <h3 class="site__header site__title" style="padding-top: 50px;">B de Bordes</h3>
+
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4">
+                <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <div class="circle center-block step" style="background-color: dodgerblue";>
+
+                        <h3 class="site__header site__title" style="padding-top: 50px;">C de Color</h3>
+
+                    </div>
+                </a>
+            </div>
+            </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <div class="circle center-block step" style="background-color: dodgerblue";>
+                        <h3 class="site__header site__title" style="padding-top: 50px;">D de Diametro</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-6">
+                <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <div class="circle center-block step" style="background-color: dodgerblue";>
+
+                        <h3 class="site__header site__title" style="padding-top: 50px;">E de Evolucion</h3>
+
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+</div>
+</div>
+-->
 <div class="row">
     <div class=" col-lg-12 list-group-item">
         <table class="table table-responsive table-bordered">
@@ -92,9 +149,6 @@
     </div>
 </div>
 
-
-
-
 <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
 <div class="scroll-top page-scroll visible-xs visble-sm">
     <a class="btn btn-primary" href="#screen_banner">
@@ -104,11 +158,177 @@
 
 
 
+<div class="portfolio-modal modal fade col-lg-6 col-lg-offset-3" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true" >
+    <div class="modal-content col-lg-8 col-lg-offset-2" style="padding: 0%">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2" style="background-color: lightskyblue;">
+                    <div class="modal-body">
+                        <h2>A de Asimetria</h2>
+                       <div class="col-lg-6">
+                           <p>Los lunares son redondos y simétricos</p>
+                           <img src="${resource(dir:'images/ABCDE',file:'Aok.png')}" class="center-block img-responsive img-rounded">
+                       </div>
+                        <div class="col-lg-6">
+                            <p>Los melanomas iniciales son asimétricos</p>
+                            <img src="${resource(dir:'images/ABCDE',file:'Anot.png')}" class="center-block img-responsive img-rounded">
+                        </div>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+
+
+<div class="portfolio-modal modal fade col-lg-8 col-lg-offset-2" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true" >
+    <div class="modal-content">
+
+            <div class="col-lg-8 col-lg-offset-2">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="close-modal" data-dismiss="modal">
+                            <div class="lr">
+                                <div class="rl">
+                                </div>
+                            </div>
+                        </div>
+                    <th class="info"></th>
+                    <th class="success">
+                        <p>Los lunares tienen bordes regulares</p>
+                    </th>
+                    <th class="success"><img src="${resource(dir:'images/ABCDE',file:'Bok.png')}" class="center-block img-responsive img-rounded"></th>
+                    <th class="danger"><img src="${resource(dir:'images/ABCDE',file:'Bnot.png')}" class="center-block img-responsive img-rounded"></th>
+                    <th class="danger">
+                        <p>La mayoría de melanomas iniciales tienen bordes irregulares y festoneados</p>
+                    </th>
+                    <h2>B de Bordes</h2>
+                    <div class="col-lg-6">
+                        <p>Los lunares tienen bordes regulares</p>
+                        <img src="${resource(dir:'images/ABCDE',file:'Bok.png')}" class="center-block img-responsive img-rounded">
+                    </div>
+                    <div class="col-lg-6">
+                        <p>La mayoría de melanomas iniciales tienen bordes irregulares y festoneados</p>
+                        <img src="${resource(dir:'images/ABCDE',file:'Bnot.png')}" class="center-block img-responsive img-rounded">
+                    </div>
+                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="portfolio-modal modal fade col-lg-6 col-lg-offset-3" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <div class="modal-body">
+                    <h2>A de Asimetria</h2>
+                    <div class="col-lg-6">
+                        <p>Los lunares son redondos y simétricos</p>
+                        <img src="${resource(dir:'images/ABCDE',file:'Aok.png')}" class="center-block img-responsive img-rounded">
+                    </div>
+                    <div class="col-lg-6">
+                        <p>Los melanomas iniciales son asimétricos</p>
+                        <img src="${resource(dir:'images/ABCDE',file:'Anot.png')}" class="center-block img-responsive img-rounded">
+                    </div>
+                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="portfolio-modal modal fade col-lg-6 col-lg-offset-3" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <div class="modal-body">
+                    <h2>A de Asimetria</h2>
+                    <div class="col-lg-6">
+                        <p>Los lunares son redondos y simétricos</p>
+                        <img src="${resource(dir:'images/ABCDE',file:'Aok.png')}" class="center-block img-responsive img-rounded">
+                    </div>
+                    <div class="col-lg-6">
+                        <p>Los melanomas iniciales son asimétricos</p>
+                        <img src="${resource(dir:'images/ABCDE',file:'Anot.png')}" class="center-block img-responsive img-rounded">
+                    </div>
+                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="portfolio-modal modal fade col-lg-6 col-lg-offset-3" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <div class="modal-body">
+                    <h2>A de Asimetria</h2>
+                    <div class="col-lg-6">
+                        <p>Los lunares son redondos y simétricos</p>
+                        <img src="${resource(dir:'images/ABCDE',file:'Aok.png')}" class="center-block img-responsive img-rounded">
+                    </div>
+                    <div class="col-lg-6">
+                        <p>Los melanomas iniciales son asimétricos</p>
+                        <img src="${resource(dir:'images/ABCDE',file:'Anot.png')}" class="center-block img-responsive img-rounded">
+                    </div>
+                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
 <!-- Bootstrap core JavaScript
     ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+<g:javascript>
+    $(document).ready(function () {
+        $(".step").hover(
+                function(){
+                    $(this).toggleClass("swing animated", true);
+                }
+                , function(){
+                    $(this).toggleClass("swing animated", false);
+                }
+        );
+    });
+</g:javascript>
+
 <g:javascript src="bootstrap.min.js"></g:javascript>
+
+
 
 </body>
 </html>
