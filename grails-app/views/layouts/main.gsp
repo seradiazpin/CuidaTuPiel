@@ -10,9 +10,7 @@
     <link href="${resource(dir: 'css',file: 'style.css')}" type="text/css" rel="stylesheet">
     <link href="${resource(dir: 'css',file: 'animate.css')}" type="text/css" rel="stylesheet">
     <link href="${resource(dir: 'font-awesome-4.3.0',file: 'css/font-awesome.min.css')}" type="text/css" rel="stylesheet">
-    <link href="${resource(dir: 'js',file: 'jquery-ui-1.11.4.custom/jquery-ui.css')}" type="text/css" rel="stylesheet">
-    <g:javascript src="jquery-ui-1.11.4.custom/external/jquery/jquery.js"></g:javascript>
-    <g:javascript src="jquery-ui-1.11.4.custom/jquery-ui.min.js"></g:javascript>
+
 	<g:layoutHead/>
 </head>
 <body>

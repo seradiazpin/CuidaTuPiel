@@ -2,6 +2,9 @@
 <head>
     <meta name="layout" content="main"/>
     <title>Cuida tu piel</title>
+    <link href="${resource(dir: 'js',file: 'jquery-ui-1.11.4.custom/jquery-ui.css')}" type="text/css" rel="stylesheet">
+    <g:javascript src="jquery-ui-1.11.4.custom/external/jquery/jquery.js"></g:javascript>
+    <g:javascript src="jquery-ui-1.11.4.custom/jquery-ui.min.js"></g:javascript>
     <g:javascript>
         $(function() {
             $( "#accordion" ).accordion();

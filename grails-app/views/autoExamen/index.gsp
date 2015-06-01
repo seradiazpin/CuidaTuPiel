@@ -55,51 +55,38 @@
                 </ol>
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                        <img src="http://www.cancer.org/acs/groups/content/@editorial/documents/image/acspc-043463.jpg" class="img-rounded img-responsive autoImg">                        <div class="container">
-                            <div class="carousel-caption">
-                                <h1 >1</h1>
-                                <p>Examina tu cara y pecho, especialmente la nariz, labios, boca y orejas
-                                por delante y por detrás. Las mujeres tendrán que levantar sus pechos para comprobar la piel de debajo.
-                                </p>
-                                <p>
-                                    
-                                </p>
-                            </div>
+                        <img src="http://www.cancer.org/acs/groups/content/@editorial/documents/image/acspc-043463.jpg" class="img-rounded img-responsive autoImg">
+                        <div class="carousel-caption">
+                            <h1 >1</h1>
+                            <p>Examina tu cara y pecho, especialmente la nariz, labios, boca y orejas
+                            por delante y por detrás. Las mujeres tendrán que levantar sus pechos para comprobar la piel de debajo.
+                            </p>
                         </div>
                     </div>
+
                     <div class="item">
                         <img src="http://www.cancer.org/acs/groups/content/@editorial/documents/image/acspc-043465.jpg" class="img-rounded img-responsive autoImg">
-                        <div class="container">
-                            <div class="carousel-caption">
-                                <h1 >2</h1>
-                                <p>
-                                    Mientras que aún frente al espejo , mirar la zona de las axilas y de ambos lados de los brazos.
-                                    Entonces mirar hacia abajo y compruebe la parte superior,las palmas de las manos , entre los dedos ylas uñas.
-                                </p>
-                                <p>
-                                    
-                                </p>
-                            </div>
+                        <div class="carousel-caption">
+                            <h1 >2</h1>
+                            <p>
+                                Mientras que aún frente al espejo , mirar la zona de las axilas y de ambos lados de los brazos.
+                                Entonces mirar hacia abajo y compruebe la parte superior,las palmas de las manos , entre los dedos ylas uñas.
+                            </p>
                         </div>
                     </div>
                     <div class="item">
                         <img src="http://www.cancer.org/acs/groups/content/@editorial/documents/image/acspc-043467.jpg" class="img-rounded img-responsive autoImg" >
-                        <div class="container">
                             <div class="carousel-caption">
                                 <h1>3</h1>
                                 <p>
                                     Sientece. Compruebe la parte delantera de los muslos, espinillas ,
                                     parte superior de los pies,entre los dedos y las uñas de los pies .
                                 </p>
-                                <p>
-                                    
-                                </p>
                             </div>
-                        </div>
                     </div>
                     <div class="item">
                         <img src="http://www.cancer.org/acs/groups/content/@editorial/documents/image/acspc-043469.jpg" class="img-rounded img-responsive autoImg">
-                        <div class="container">
+                        
                             <div class="carousel-caption">
                                 <h1>4</h1>
                                 <p>
@@ -111,11 +98,11 @@
                                     
                                 </p>
                             </div>
-                        </div>
+
                     </div>
                     <div class="item">
                         <img src="http://www.cancer.org/acs/groups/content/@editorial/documents/image/acspc-043470.jpg" class="img-rounded img-responsive autoImg">
-                        <div class="container">
+
                             <div class="carousel-caption">
                                 <h1>5</h1>
                                 <p>
@@ -126,11 +113,11 @@
                                     
                                 </p>
                             </div>
-                        </div>
+
                     </div>
                     <div class="item">
                         <img src="http://www.cancer.org/acs/groups/content/@editorial/documents/image/acspc-043473.jpg" class="img-rounded img-responsive autoImg">
-                        <div class="container">
+
                             <div class="carousel-caption">
                                 <h1>6</h1>
                                 <p>
@@ -141,7 +128,7 @@
                                     
                                 </p>
                             </div>
-                        </div>
+
                     </div>
 
 
